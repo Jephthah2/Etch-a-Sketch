@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.gridContainer {
+    display: flex;
+}
+
+.grid {
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
