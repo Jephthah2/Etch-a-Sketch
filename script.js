@@ -8,7 +8,12 @@ for (let i = 0; i < 16; i++) {
     for (let j = 0; j < 16; j++) {
         const grid = document.createElement('div');
         grid.classList.add('grid');
-        gridContainer.appendChild(grid)
+
+        grid.addEventListener('mouseover', (event) => {
+            event.target.style.backgroundColor = "blue";
+        });
+
+        gridContainer.appendChild(grid);
     }
     container.appendChild(gridContainer);
 }
