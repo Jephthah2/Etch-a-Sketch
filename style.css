@@ -1,10 +1,17 @@
+.title {
+    font-family: monospace;
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin: 20px 0px;
+}
+
 #container {
     display: flex;
     flex-direction: column;
 }
 
 .gridContainer {
-    display: flex;
+    display: flex;  
 }
 
 .grid {
