@@ -12,7 +12,7 @@ function createGrid(size = 16) {
         
         // Add a hover effect
         grid.addEventListener('mouseover', (event) => {
-            event.target.style.backgroundColor = "blue";
+            event.target.style.backgroundColor = randomColor();
         });
 
         gridContainer.appendChild(grid);
@@ -73,5 +73,3 @@ function random(number) {
 function randomColor(color) {
     return `rgb(${random(255)} ${random(255)} ${random(255)})`;
 }
-
-console.log(randomColor(5));
