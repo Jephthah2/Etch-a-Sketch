@@ -63,3 +63,8 @@ function clearGrid() {
 
 //Initial Grid
 createGrid();
+
+//Create a random function
+function random(number) {
+    return Math.floor(Math.random() * (number + 1));
+}
