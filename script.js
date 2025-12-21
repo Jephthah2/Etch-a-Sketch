@@ -68,3 +68,10 @@ createGrid();
 function random(number) {
     return Math.floor(Math.random() * (number + 1));
 }
+
+//Create a random color
+function randomColor(color) {
+    return `rgb(${random(255)} ${random(255)} ${random(255)})`;
+}
+
+console.log(randomColor(5));
